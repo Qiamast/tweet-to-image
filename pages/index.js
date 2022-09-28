@@ -120,7 +120,7 @@ function App()
             </Flex>
 
             <footer>
-                <Text px='1rem' className='i' color='gray.500' fontSize='lg'>Made with 💜 for open source by <a href="https://www.twitter.com/drkPrns" rel="noreferrer" target='_blank'>Prince</a>. Check out on <a href="http://github.com/drkPrince/tweet-to-image" rel="noreferrer" target='_blank'>Github</a>.</Text>
+                <Text px='1rem' className='i' color='gray.500' fontSize='lg'>Made with 💜 for open source by <a href="https://www.twitter.com/drkPrns" rel="noreferrer" target='_blank'>Prince</a>. and Perisan Language Support by <a href="http://github.com/Qiamast" rel="noreferrer" target='_blank'>Qiamast</a> at the <a href="http://github.com/Qiamast/tweet-to-image" rel="noreferrer" target='_blank'>Github</a>.</Text>
             </footer>
       </Box>
     )
