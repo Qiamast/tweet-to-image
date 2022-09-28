@@ -51,6 +51,7 @@ footer {
 	background-clip: text;
 	color: transparent;
 	text-align: center;
+	direction: rtl;
 }
 
 

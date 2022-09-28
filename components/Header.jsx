@@ -8,12 +8,12 @@ const Header = ({bringTweet}) => {
 	return (
 		<>
 			<Box pt='20' px='4'>
-	            <Text fontSize={title_size} className='title i'>Capture tweets in a beautiful frame.</Text>
+	            <Text fontSize={title_size} className='title i'>تبدیل توییت به پست اینستاگرام</Text>
 	        </Box>
 	        <Box className='i' my="12" align="center">
 	          <form onSubmit={bringTweet} autoComplete='off'>
 	                <InputGroup maxW='90vw'>
-	                    <Input name='tweetURL' placeholder="https://twitter.com/drkPrns/status/1375809527690317825" />
+	                    <Input name='tweetURL' placeholder="Tweet URL" />
 	                    <InputRightElement>
 	                    	<button type='submit'>
 	                    		<SearchIcon fontSize={font_size} color="blue.500" />
