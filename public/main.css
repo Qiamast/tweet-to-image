@@ -1,16 +1,19 @@
-
+@font-face {
+	font-family: vazir;
+	src: url();
+}
 @font-face {
 	font-family: Lib;
-	src: url('/LiberationSans-Regular.ttf');
+	src: url('./vazirmatn/ttf/Vazirmatn-Regular.ttf');
 }
 
 @font-face {
 	font-family: Lib-Bold;
-	src: url('/LiberationSans-Bold.ttf');
+	src: url('./vazirmatn/ttf/Vazirmatn-Bold.ttf');
 }
 
 body {
-	font-family: 'Helvetica', Lib, 'Roboto', sans-serrif;
+	font-family: vazir, Lib, 'Roboto', sans-serrif;
 	font-size: 62.5%;
 	background: snow;
 }
