@@ -1,5 +1,5 @@
 import {Text, Input, Box, InputGroup, InputRightElement} from "@chakra-ui/react"
-import { SearchIcon } from '@chakra-ui/icons'
+import {RepeatIcon as SearchIcon  } from '@chakra-ui/icons'
 
 const Header = ({bringTweet}) => {
 	const title_size = { base: "33px", md: "50px", lg: "55px" }
@@ -12,7 +12,7 @@ const Header = ({bringTweet}) => {
 	        </Box>
 	        <Box className='i' my="12" align="center">
 	          <form onSubmit={bringTweet} autoComplete='off'>
-	                <InputGroup maxW='90vw'>
+	                <InputGroup maxW='60vw'>
 	                    <Input name='tweetURL' placeholder="Tweet URL" />
 	                    <InputRightElement>
 	                    	<button type='submit'>
